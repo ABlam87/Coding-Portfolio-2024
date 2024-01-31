@@ -3,7 +3,7 @@ import React from "react";
 const Home = function() {
     return <div id = 'homePage'>
         <section className="container-fluid row" id="jumbotron">
-            <img id='headshot' src="./src/assets/images/headshot 2.jpg" className="col-md-12 col-lg-3 jumboimg"></img>
+            <img id='headshot' src="./public/assets/images/headshot 2.jpg" className="col-md-12 col-lg-3 jumboimg"></img>
             <div className="jumbotron jumbotron-fluid col-md-12 col-lg-9">
                 <div className="container jumboCopy">
                     <h1 className="display-4"><span className="span1">Adam Blampied // Web Developer</span></h1>
@@ -21,22 +21,22 @@ const Home = function() {
                 </div>
                 <div className="col-lg-8 col-md-12 row" id="skillCopy">
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="./src/assets/images/html logo.webp" className="card-img-top" alt="HTML5"></img>
+                        <img src="./public/assets/images/html logo.webp" className="card-img-top" alt="HTML5"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="./src/assets/images/css logo.webp" className="card-img-top" alt="CSS"></img>
+                        <img src="./public/assets/images/css logo.webp" className="card-img-top" alt="CSS"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="./src/assets/images/javascript icon.webp" className="card-img-top" alt="javascript"></img>
+                        <img src="./public/assets/images/javascript icon.webp" className="card-img-top" alt="javascript"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="./src/assets/images/Bootstrap_logo.svg.png" className="card-img-top" alt="Bootstrap"></img>
+                        <img src="./public/assets/images/Bootstrap_logo.svg.png" className="card-img-top" alt="Bootstrap"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4" >
-                        <img src="./src/assets/images/node icon.png" className="card-img-top" alt="Node"></img>
+                        <img src="./public/assets/images/node icon.png" className="card-img-top" alt="Node"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="./src/assets/images/react icon.png" className="card-img-top" alt="React"></img>
+                        <img src="./public/assets/images/react icon.png" className="card-img-top" alt="React"></img>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ const Home = function() {
                 </div>
 
                 <div className="col-lg-8 col-md-12" id="resumeCopy">
-                    <a href = './src/assets/files/Adam Blampied - CV 2024.pdf' target="_blank">Click here to see a PDF of my CV</a>
+                    <a href = './public/assets/files/Adam Blampied - CV 2024.pdf' target="_blank">Click here to see a PDF of my CV</a>
                 </div>
             </div>
 
