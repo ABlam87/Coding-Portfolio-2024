@@ -3,42 +3,42 @@
         "id": 1,
         "title": "TravelFanatix Planner App",
         "description": "A planner, using APIs to generate weather and points of interest data for any city",
-        "image": "https://i.imgur.com/hISMLrA.png",
+        "image": "./assets/travelFanatix.png",
         "link": "https://agworkgit.github.io/travel-fanatix/"
     },
     {
         "id": 2,
         "title": "Weather Forecast App",
         "description": "A dashboard that fetches a 5-day weather forecast for any city searched for",
-        "image": "https://i.imgur.com/qUuvKRO.png",
+        "image": "./assets/weather dashboard.png",
         "link": "https://ablam87.github.io/Weather-Dashboard/"
     },
     {
         "id": 3,
         "title": "Code Refactor",
         "description": "My very first project (aww), refactoring code for a website",
-        "image": "https://i.imgur.com/ynPAzPU.png",
+        "image": "./assets/Horiseon.png",
         "link": "https://ablam87.github.io/Code-Refactor/"
     },
     {
         "id": 4,
         "title": "Password Generator",
         "description": "An app that generates random passwords using minimal user input",
-        "image": "https://i.imgur.com/eKeU9UX.png",
+        "image": "./assets/password generator.png",
         "link": "https://ablam87.github.io/password-generator/"
     },
     {
         "id": 5,
         "title": "CSS Cheatsheet",
         "description": "A cheatsheet of handy CSS tips and tricks",
-        "image": "https://i.imgur.com/SzCH1EM.png",
+        "image": "./assets/CSS Cheatsheet.PNG",
         "link": "https://ablam87.github.io/CSS-Snippet-Cheatsheet/"
     },
     {
         "id": 6,
         "title": "Coding Quiz",
         "description": "A quiz featuring 10 coding questions, and a leaderboard that saves to local storage",
-        "image": "https://i.imgur.com/RSMJJUy.png",
+        "image": "./assets/quiz.png",
         "link": "https://ablam87.github.io/Coding-Quiz/"
     }
 ]

@@ -1,5 +1,4 @@
-import React from "react";
-
+/* eslint-disable react/prop-types */
 function Project(props) {
     return <div id={props.id} className="card project" style={{minWidth: "200px"}}>
         <h2>{props.title}</h2>
@@ -8,5 +7,4 @@ function Project(props) {
         <p>{props.description}</p>
     </div>
 }
-
-export default Project 
+export default Project;

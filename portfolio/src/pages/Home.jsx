@@ -3,7 +3,7 @@ import React from "react";
 const Home = function() {
     return <div id = 'homePage'>
         <section className="container-fluid row" id="jumbotron">
-            <img id='headshot' src="https://i.imgur.com/XsWasvw.jpeg" className="col-md-12 col-lg-3 jumboimg"></img>
+            <img id='headshot' src="./assets/headshot 2.jpg" className="col-md-12 col-lg-3 jumboimg"></img>
             <div className="jumbotron jumbotron-fluid col-md-12 col-lg-9">
                 <div className="container jumboCopy">
                     <h1 className="display-4"><span className="span1">Adam Blampied // Web Developer</span></h1>
@@ -21,22 +21,22 @@ const Home = function() {
                 </div>
                 <div className="col-lg-8 col-md-12 row" id="skillCopy">
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" className="card-img-top" alt="HTML5"></img>
+                        <img src="./assets/html logo.webp" className="card-img-top" alt="HTML5"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="https://static-00.iconduck.com/assets.00/file-type-css-icon-1806x2048-r5fwjl3p.png" className="card-img-top" alt="CSS"></img>
+                        <img src="./assets/css logo.webp" className="card-img-top" alt="CSS"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" className="card-img-top" alt="javascript"></img>
+                        <img src="./assets/javascript icon.webp" className="card-img-top" alt="javascript"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="https://i.imgur.com/LPLol0e.png" className="card-img-top" alt="Bootstrap"></img>
+                        <img src="./assets/Bootstrap_logo.svg.png" className="card-img-top" alt="Bootstrap"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4" >
-                        <img src="https://i.imgur.com/TYQ2cA5.png" className="card-img-top" alt="Node"></img>
+                        <img src="./assets/node icon.png" className="card-img-top" alt="Node"></img>
                     </div>
                     <div className="col-lg-2 col-md-4 col-sm-4">
-                        <img src="https://i.imgur.com/BI8R8QV.png" className="card-img-top" alt="React"></img>
+                        <img src="./assets/react icon.png" className="card-img-top" alt="React"></img>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ const Home = function() {
                 </div>
 
                 <div className="col-lg-8 col-md-12" id="resumeCopy">
-                    <a href = 'https://drive.google.com/file/d/1qv3_L1kPgDwBWRGbEHhC0LYY8n6xs1do/view?usp=sharing' target="_blank">Click here to see a PDF of my CV</a>
+                    <a href = './src/assets/files/Adam Blampied - CV 2024.pdf' target="_blank">Click here to see a PDF of my CV</a>
                 </div>
             </div>
 
