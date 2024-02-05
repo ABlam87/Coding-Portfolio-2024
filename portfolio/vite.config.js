@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: '../'
-  }
+  },
+  base: "/Coding-Portfolio-2024"
 })
