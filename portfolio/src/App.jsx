@@ -9,9 +9,9 @@ import "./App.css";
 
 function App() {
     return(
-  <Router basename="/Coding-Portfolio-2024">
+  <Router>
     <Header />
-    <Routes>
+    <Routes basename="/Coding-Portfolio-2024">
       <Route path="/" element={<Home />} />
       <Route path="project-gallery" element={<ProjectsGallery />} />
       <Route path="contact" element={<Contact />} />
